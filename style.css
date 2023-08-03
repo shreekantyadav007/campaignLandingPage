@@ -1,0 +1,196 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #fefefe;
+    font-family:Gotham-Book;
+    font-size: 14px;
+    
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  @font-face {
+    font-family: Gotham-Bold;
+    src: url(Fonts/Gotham-Bold.otf);
+  }
+  @font-face {
+    font-family: Gotham-Black;
+    src: url(Fonts/Gotham-Black.otf);
+  }
+  @font-face {
+    font-family: Gotham-Bold;
+    src: url(Fonts/Gotham-Bold.otf);
+  }
+  @font-face {
+    font-family: Gotham-Book;
+    src: url(Fonts/Gotham-Book.otf);
+  }
+  @font-face {
+    font-family: Gotham-Medium;
+    src: url(Fonts/Gotham-Medium.otf);
+  }
+  .wrapper{
+    width: 100%;
+    max-width: 580px;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+    height: 100%;
+  }
+.header{
+    padding: 0 15px;
+}  
+.form-check-input{margin-top: 0.35em !important;}
+.form-check{font-size:12px;font-family: Gotham-Book;}
+.header-container{
+    /* display: flex;
+    justify-content: start;
+    align-items: center; */
+    background-color: #000;
+}
+.haw-logo{
+    padding: 12px 15px 
+}
+#map{padding: 16px 0}
+
+.form-control{font-size:13px}
+.discount span.red{color: #f92d2b;}
+.discount.big.text-center{
+    font-size: 36px;
+    font-family: Gotham-Black;
+}
+.discount.text-center{
+    font-size: 16px;
+    font-family: Gotham-Black;
+}
+.discount.text-center p{padding: 0 5px}
+
+.borderflex {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.borderflex + .borderflex {
+  border-left: 5px solid rgb(0, 146, 247);
+  border-color: var(--bs-border-color)!important;
+}
+
+
+.bg-info{background-color: #d6e8f2;}
+.header-container .text-heading h1{
+    color: #fff;
+    line-height: 1;
+    font-family: Gotham-Bold;
+    font-size: 54px;
+    padding-top: 10px;
+}
+.header .center-head{
+    text-align: center;
+    font-family: gabriola, calibri;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.1;
+}
+.copy-button {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+}
+ul {
+    padding-left: 1rem;
+}
+.copy-button {
+    margin: 12px 0 -5px 0;
+    height: 45px;
+    border-radius: 4px;
+    padding: 0 5px;
+  
+}
+.copy-button input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border: 2px dashed #cd3232;
+    border-right: none;
+    font-weight: bold;
+    padding-left: 12px;
+}
+.copy-button button {
+    padding: 12px 20px;
+    background-color: #dc143c;
+    color: #fff;
+    border: 1px solid transparent;
+}
+.product-images-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 12px;
+        grid-auto-flow: row;    
+}
+.product-images-container .img-contain{
+    position: relative;
+}
+.icon-call{
+    background-image: url('images/call-icon.png');
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 17px;
+}
+.product-images-container .img-contain .img-heading{
+    position: absolute;
+    font-family: 'Humana 970';
+    text-transform: uppercase;
+    top: 5px;
+    left: 10px;
+    font-size: 14px;
+}
+button.btn.btn-dark.rounded-0{
+    font-family: Gotham-Bold;
+    font-size: 20px;
+}
+.black{
+    color: #000;
+}
+.dealer-add a{color: #000;font-size: 20px;font-family: Gotham-Bold;text-decoration:none}
+.dealer-add h2{font-family: Gotham-Bold;}
+.dealer-add p{font-family: Gotham-Medium;}
+@media screen and (max-width: 575px) {
+    .haw-logo{
+        padding: 10px;
+    }
+    .header-container .text-heading h1{
+        font-size: 44px;
+    }
+    p.text-center {
+        margin-bottom: 10px !important;
+        padding: 0 !important;
+    }
+    .discount.big.text-center {
+        font-size: 30px;
+    }   
+    .discount.text-center p{
+        margin-bottom:0px !important;
+    }
+}
+@media screen and (max-width: 475px){
+    .img-contain img{width:100% !important;}
+}
+@media screen and (max-width: 375px){
+    p.text-center {
+        margin-bottom: 0px !important;
+        padding: 0 !important;
+    }
+    .header-container .text-heading h1{
+        margin-bottom:5px;
+    }
+    .discount.text-center{
+        margin-bottom:5px !important;
+    }
+}
